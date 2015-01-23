@@ -56,4 +56,4 @@ iOS 8+
 
 ## License
 
-[MIT License](http://ilee.mit-license.org)
+[MIT License](http://mit-license.org)
