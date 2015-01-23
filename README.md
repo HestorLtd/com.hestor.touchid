@@ -9,13 +9,17 @@ Cordova Plugin to leverage the iOS local authentication framework to allow in-ap
 #### Latest published version - (DUE SOON)
 
 ```
-cordova plugin add com.hestor.touchid
+~~cordova plugin add com.hestor.touchid~~
+or
+~~phonegap plugin add com.hestor.touchid~~
 ```
 
 #### Latest version from GitHub
 
 ```
 cordova plugin add https://github.com/HestorLtd/com.hestor.touchid.git
+or
+phonegap plugin add https://github.com/HestorLtd/com.hestor.touchid.git
 ```
 
 ## Usage
