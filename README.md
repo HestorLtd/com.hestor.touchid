@@ -35,6 +35,17 @@ Pass the following arguments to the `authenticate()` function, to prompt the use
 
 ```
 touchid.authenticate(successCallback, failureCallback, text, password);
+
+touchid.authenticate(
+	function(a){
+		alert('success: '+a);
+	},
+	function(b){
+		alert('no success: '+b);
+	},
+	'Authentication Required',
+	'password123'
+);
 ```
 
 *NOTE: The localised text you present to the user should provide a clear reason for why you are requesting they authenticate themselves, and what action you will be taking based on that authentication.
@@ -48,6 +59,15 @@ Although the `authenticate()` function will return an error if the user is unabl
 
 ```
 touchid.checkSupport(successCallback, notSupportedCallback);
+
+touchid.checkSupport(
+	function(a){
+		alert('supported: '+a);
+	},
+	function(b){
+		alert('not supported: '+b);
+	}
+);
 ```
 
 ## Platforms
